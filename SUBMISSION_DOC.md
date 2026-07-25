@@ -22,7 +22,7 @@ Project: NorthPeak Digital (One-Page Agency Website)
 1. DELIVERABLE LINKS:
 - Live Deployed URL: [PASTE_YOUR_NETLIFY_OR_VERCEL_LINK_HERE]
 - Public GitHub Repository: [PASTE_YOUR_GITHUB_REPO_LINK_HERE]
-- Loom Video Walkthrough: [PASTE_YOUR_LOOM_VIDEO_LINK_HERE]
+- Loom Video Walkthrough: https://www.loom.com/share/f627115d75f8412b8f7d74f391e0641b
 
 --------------------------------------------------------------------
 2. AI USAGE STATEMENT (Mandatory Task Kit Rule #1):
