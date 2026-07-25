@@ -20,7 +20,7 @@ Project: NorthPeak Digital (One-Page Agency Website)
 ====================================================================
 
 1. DELIVERABLE LINKS:
-- Live Deployed URL: [PASTE_YOUR_NETLIFY_OR_VERCEL_LINK_HERE]
+- Live Deployed URL: https://northpeak-digitalagency.netlify.app/
 - Public GitHub Repository: [PASTE_YOUR_GITHUB_REPO_LINK_HERE]
 - Loom Video Walkthrough: https://www.loom.com/share/f627115d75f8412b8f7d74f391e0641b
 
