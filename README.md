@@ -6,6 +6,7 @@ Single-page responsive web application built for the **Digital Heroes Qualificat
 
 ## 📌 Technical Overview
 
+- **Public GitHub Repository**: [https://github.com/Vikas76-bit/northpeak-digital-agency](https://github.com/Vikas76-bit/northpeak-digital-agency)
 - **Live Deployed Website**: [https://northpeak-digitalagency.netlify.app/](https://northpeak-digitalagency.netlify.app/)
 - **Loom Video Walkthrough**: [https://www.loom.com/share/f627115d75f8412b8f7d74f391e0641b](https://www.loom.com/share/f627115d75f8412b8f7d74f391e0641b)
 - **Tech Stack**: Vanilla HTML5, CSS3, ES6 JavaScript. Zero external dependencies or heavy frameworks.
