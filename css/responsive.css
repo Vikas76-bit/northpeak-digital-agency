@@ -1,0 +1,239 @@
+/* ==========================================================================
+   NorthPeak Digital - Responsive Grid Breakpoints & Ultra-Wide Scaling
+   ========================================================================== */
+
+/* Ultra-Wide Viewports (min-width: 1920px) */
+@media (min-width: 1920px) {
+  .container {
+    max-width: 1400px;
+  }
+
+  .hero-title {
+    font-size: 4.2rem;
+  }
+}
+
+/* Large Laptops & Desktops (max-width: 1240px) */
+@media (max-width: 1240px) {
+  .container {
+    padding: 0 var(--space-24);
+  }
+}
+
+/* Medium Laptops & Tablets (max-width: 1024px) */
+@media (max-width: 1024px) {
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-32);
+    text-align: center;
+  }
+
+  .hero-content {
+    max-width: 100%;
+  }
+
+  .hero-ctas {
+    justify-content: center;
+  }
+
+  .hero-trust-bar {
+    justify-content: center;
+  }
+
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .why-us-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .process-timeline {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .testimonials-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .pricing-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .pricing-card.featured {
+    transform: none;
+  }
+
+  .pricing-card.featured:hover {
+    transform: translateY(-5px);
+  }
+
+  .contact-wrapper {
+    grid-template-columns: 1fr;
+    gap: var(--space-32);
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Small Tablets & Large Phones (max-width: 768px) */
+@media (max-width: 768px) {
+  .nav-menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 80%;
+    max-width: 360px;
+    height: 100vh;
+    background: var(--bg-dark-secondary);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-left: 1px solid var(--border-color);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: var(--space-24);
+    z-index: var(--z-drawer);
+    transition: right var(--transition-normal);
+    box-shadow: -10px 0 30px rgba(0, 0, 0, 0.8);
+  }
+
+  .nav-menu.open {
+    right: 0;
+  }
+
+  .nav-actions {
+    display: flex;
+    gap: var(--space-12);
+  }
+
+  .mobile-toggle {
+    display: block;
+  }
+
+  .process-timeline {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .why-us-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-16);
+  }
+
+  .stat-item:nth-child(2)::after {
+    display: none;
+  }
+
+  .testimonials-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .pricing-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-24);
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+/* Mobile Devices (max-width: 640px) */
+@media (max-width: 640px) {
+  .section-padding {
+    padding: var(--space-48) 0;
+  }
+
+  .hero-title {
+    font-size: 2.1rem;
+  }
+
+  .hero-ctas {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .process-timeline {
+    grid-template-columns: 1fr;
+  }
+
+  .stats-grid {
+    grid-template-columns: 1fr;
+    padding: var(--space-24);
+  }
+
+  .stat-item:not(:last-child)::after {
+    display: none;
+  }
+
+  .stat-item {
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: var(--space-16);
+  }
+
+  .stat-item:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  .contact-wrapper {
+    padding: var(--space-24);
+  }
+
+  .floating-cta-badge {
+    display: none;
+  }
+}
+
+/* Standard Modern Mobile (max-width: 390px) */
+@media (max-width: 390px) {
+  .hero-title {
+    font-size: 1.95rem;
+  }
+
+  .visual-card {
+    padding: var(--space-16);
+  }
+
+  .pill-top-right, .pill-bottom-left {
+    display: none;
+  }
+}
+
+/* Small Devices (max-width: 360px) */
+@media (max-width: 360px) {
+  .container {
+    padding: 0 var(--space-16);
+  }
+
+  .hero-title {
+    font-size: 1.8rem;
+  }
+
+  .service-card {
+    padding: var(--space-24) var(--space-16);
+  }
+
+  .pricing-card {
+    padding: var(--space-24) var(--space-16);
+  }
+}
